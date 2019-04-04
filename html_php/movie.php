@@ -1,0 +1,66 @@
+<?
+php session_start();
+require('../php/info_product.php');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/movie.css">
+    <title>Fluxy</title>
+</head>
+  <body>
+    <br/>
+    <h1 id="titre">Fluxy</h1>
+
+<!--Menu HTML-->
+     <nav id="nav">
+   <ul id="menu">
+      <li><a href="home.php">ACCUEIL</a></li>
+      <li><a href="#">CATEGORIES</a>
+      <ul>
+         <li id="sous_menu"><a href="justice_league.php">Action</a></li>
+         <li><a href="avengers.php">Comédie</a></li>
+         <li><a href="exclusive.php">Documentaire</a></li>
+         <li><a href="guardians_of_the_galaxy.php">Fantastique</a></li>
+         <li><a href="suicide_squad.php">Science Fiction</a></li>
+      </ul>
+      </li>
+      <li><a href="#">VOTRE COMPTE</a>
+        <ul>
+         <li id="sous_menu"><a href="comment.php">Mes Commentaires</a></li>
+         <li><a href="connect.php">Connexion</a></li>
+         <li><a href="inscription.php">Inscription</a></li>
+         </ul>
+      </nav>
+      <br/><br/>
+
+<!--Les films les mieux noté!-->
+        <h3 id="best_movie">Titre du Film</h3><br/>
+
+
+ <table id="tab_film" style="width:70%">
+      <tr><!--titre-->
+
+       <th id="cellule"><img id="affiche" src="../image/Avengers_air_Ultron.jpg"></th>
+       <th id="cellule">Réalisateur : <br/><br/>Acteur : <br/><br/>Date de sortie : <br/><br/>Pays d'origine : <br/><br/>Note : <br/><br/>Box Office :<br/><br/>Age limite :</th>
+      </tr>
+  </table> <br/>
+
+  <table id="tab_syno" style="width:70%">
+      <tr><!--titre-->
+       <th id="Syno"> Marvel Studios présente "Avengers : l'ère d'Ultron", la suite épique du plus grand film de superhéros de tous les temps. Quand Tony Stark réveille un programme de maintien de la paix en sommeil, les choses dégénèrent et les plus grands héros du monde, parmi lesquels Iron Man, Captain America, Thor, l'Incroyable Hulk, Black Widow and Hawkeye, doivent s'unir et combattre pour sauver la planète. Les Avengers vont tenter d’empêcher Ultron de mener à bien ses projets diaboliques au cours d'une aventure épique remplie d'alliances improbables et de scènes d'action surprenantes.</th>
+      </tr>
+  </table><br/>
+
+  <table id="tab_film">
+    <tr>
+      <th>Commentaire</th>
+    </tr>
+  </table>
+  
+
+    <br/><br/>
+<h4 id="copyright">Créé par SELATNI Ryad</h4>
+	</body>
+</html>

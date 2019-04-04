@@ -1,0 +1,117 @@
+body
+{
+    font-family: georgia;
+}
+
+#titre
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+    color:black;
+    box-shadow: 2px 1px 100px black;
+    text-shadow: 0px 0px 10px black;
+}
+
+#best_movie
+{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    color:black;
+
+}
+
+#tab_choix
+{
+	/*box-shadow: 2px 1px 100px black;*/
+	margin:auto;
+}
+
+#les_choix
+{
+ 	text-shadow: 0px 0px 10px black;
+    color:black;
+}
+
+#copyright
+{
+    text-align: right;
+    text-shadow: 0px 0px 10px black;
+    color:black;
+}
+
+
+#menu, #menu ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu li{
+display:inline-block;
+position:relative;
+}
+#menu ul li{
+display:inherit;
+border-radius:0;
+}
+#menu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+
+#menu li:hover ul{
+max-height:15em;
+}
+/* background des liens sous menus */
+#menu li:first-child li{
+	box-shadow: 2px 1px 5px black;
+background:black;
+}
+#menu li:nth-child(2) li{
+	box-shadow: 2px 1px 5px black;
+background:lightgrey;
+}
+#menu li:nth-child(3) li{
+background:lightgrey;
+}
+#menu li:nth-child(4) li{
+background:lightgrey;
+}
+#menu li:last-child li{
+background:lightgrey;
+}
+/* background des liens menus et sous menus au survol */
+#menu li:first-child:hover, #menu li:first-child li:hover{
+background:gold;
+}
+#menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
+background:gold;
+}
+#menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{
+background:gold;
+}
+#menu li:nth-child(4):hover, #menu li:nth-child(4) li:hover{
+background:gold;
+}
+#menu li:last-child:hover, #menu li:last-child li:hover{
+background:gold;
+}
+#menu a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:black; /*ecriture*/
+font-family:arial;
+/*box-shadow: 2px 1px 5px black;*/
+text-shadow: 0px 0px 10px black;
+}
+
